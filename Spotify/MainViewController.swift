@@ -22,7 +22,6 @@ class MainViewController: UIViewController {
         view.window!.layer.add(transition, forKey: kCATransition)
         
         let presentedVC = self.storyboard!.instantiateViewController(withIdentifier: "PresentedViewController")
-        presentedVC.view.backgroundColor = UIColor.white
         presentedVC.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: .done, target: self, action: #selector(didTapCloseButton(_:)))
         let nvc = UINavigationController(rootViewController: presentedVC)
         present(nvc, animated: false, completion: nil)

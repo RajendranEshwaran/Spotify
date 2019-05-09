@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9777FF1022847B43003C86B6 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9777FF0F22847B43003C86B6 /* CreateAccountViewController.swift */; };
 		979F520522821C98005CFC16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F520422821C98005CFC16 /* AppDelegate.swift */; };
 		979F520722821C98005CFC16 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F520622821C98005CFC16 /* MainViewController.swift */; };
 		979F520A22821C98005CFC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979F520822821C98005CFC16 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9777FF0F22847B43003C86B6 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		979F520122821C98005CFC16 /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979F520422821C98005CFC16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		979F520622821C98005CFC16 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				979F520B22821C9A005CFC16 /* Assets.xcassets */,
 				979F520D22821C9A005CFC16 /* LaunchScreen.storyboard */,
 				979F521022821C9A005CFC16 /* Info.plist */,
+				9777FF0F22847B43003C86B6 /* CreateAccountViewController.swift */,
 			);
 			path = Spotify;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9777FF1022847B43003C86B6 /* CreateAccountViewController.swift in Sources */,
 				979F520722821C98005CFC16 /* MainViewController.swift in Sources */,
 				979F520522821C98005CFC16 /* AppDelegate.swift in Sources */,
 			);
