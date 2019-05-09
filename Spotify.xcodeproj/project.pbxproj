@@ -8,6 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		9777FF1022847B43003C86B6 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9777FF0F22847B43003C86B6 /* CreateAccountViewController.swift */; };
+		9777FF122284B39F003C86B6 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9777FF112284B39F003C86B6 /* SelectionViewController.swift */; };
+		9777FF142284B5EC003C86B6 /* SelectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9777FF132284B5EC003C86B6 /* SelectionViewCell.swift */; };
+		9777FF172284BD50003C86B6 /* ArianaGrande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF162284BD50003C86B6 /* ArianaGrande.jpg */; };
+		9777FF342284C2FF003C86B6 /* Madona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF192284C2FD003C86B6 /* Madona.jpg */; };
+		9777FF352284C2FF003C86B6 /* Crystal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF1A2284C2FD003C86B6 /* Crystal.jpg */; };
+		9777FF362284C2FF003C86B6 /* Katy Perry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF1B2284C2FD003C86B6 /* Katy Perry.jpg */; };
+		9777FF372284C2FF003C86B6 /* justin bieber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF1C2284C2FD003C86B6 /* justin bieber.jpg */; };
+		9777FF382284C2FF003C86B6 /* John Wayne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF1D2284C2FD003C86B6 /* John Wayne.jpg */; };
+		9777FF392284C2FF003C86B6 /* Mandy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF1E2284C2FD003C86B6 /* Mandy.jpg */; };
+		9777FF3A2284C2FF003C86B6 /* Singer15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF1F2284C2FD003C86B6 /* Singer15.jpg */; };
+		9777FF3B2284C2FF003C86B6 /* miley cyrus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF202284C2FD003C86B6 /* miley cyrus.jpg */; };
+		9777FF3C2284C2FF003C86B6 /* Alanis .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF212284C2FD003C86B6 /* Alanis .jpg */; };
+		9777FF3D2284C2FF003C86B6 /* Paul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF222284C2FE003C86B6 /* Paul.jpg */; };
+		9777FF3E2284C2FF003C86B6 /* singer19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF232284C2FE003C86B6 /* singer19.jpg */; };
+		9777FF3F2284C2FF003C86B6 /* TaylorSwift.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF242284C2FE003C86B6 /* TaylorSwift.jpeg */; };
+		9777FF402284C2FF003C86B6 /* usher raymond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF252284C2FE003C86B6 /* usher raymond.jpg */; };
+		9777FF412284C2FF003C86B6 /* Michel Jackson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF262284C2FE003C86B6 /* Michel Jackson.jpg */; };
+		9777FF422284C2FF003C86B6 /* rihanna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF272284C2FE003C86B6 /* rihanna.jpg */; };
+		9777FF432284C2FF003C86B6 /* Selena Gomez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF282284C2FE003C86B6 /* Selena Gomez.jpg */; };
+		9777FF442284C2FF003C86B6 /* Singer18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF292284C2FE003C86B6 /* Singer18.jpg */; };
+		9777FF452284C2FF003C86B6 /* obit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF2A2284C2FE003C86B6 /* obit.jpg */; };
+		9777FF462284C2FF003C86B6 /* Carrie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF2B2284C2FE003C86B6 /* Carrie.jpg */; };
+		9777FF472284C2FF003C86B6 /* Singer14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF2C2284C2FE003C86B6 /* Singer14.jpg */; };
+		9777FF482284C2FF003C86B6 /* singer17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF2D2284C2FE003C86B6 /* singer17.jpg */; };
+		9777FF492284C2FF003C86B6 /* harry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF2E2284C2FE003C86B6 /* harry.jpg */; };
+		9777FF4A2284C2FF003C86B6 /* rajay.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF2F2284C2FE003C86B6 /* rajay.jpeg */; };
+		9777FF4B2284C2FF003C86B6 /* Adele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF302284C2FF003C86B6 /* Adele.jpg */; };
+		9777FF4C2284C2FF003C86B6 /* singer24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF312284C2FF003C86B6 /* singer24.jpg */; };
+		9777FF4D2284C2FF003C86B6 /* Marry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF322284C2FF003C86B6 /* Marry.jpg */; };
+		9777FF502284C4D2003C86B6 /* singer16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF4E2284C4D1003C86B6 /* singer16.jpg */; };
+		9777FF512284C4D2003C86B6 /* ladyvgaga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF4F2284C4D2003C86B6 /* ladyvgaga.jpg */; };
+		9777FF532284C59C003C86B6 /* singer23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9777FF522284C59C003C86B6 /* singer23.jpg */; };
 		979F520522821C98005CFC16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F520422821C98005CFC16 /* AppDelegate.swift */; };
 		979F520722821C98005CFC16 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F520622821C98005CFC16 /* MainViewController.swift */; };
 		979F520A22821C98005CFC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979F520822821C98005CFC16 /* Main.storyboard */; };
@@ -17,6 +49,38 @@
 
 /* Begin PBXFileReference section */
 		9777FF0F22847B43003C86B6 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		9777FF112284B39F003C86B6 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		9777FF132284B5EC003C86B6 /* SelectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewCell.swift; sourceTree = "<group>"; };
+		9777FF162284BD50003C86B6 /* ArianaGrande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ArianaGrande.jpg; sourceTree = "<group>"; };
+		9777FF192284C2FD003C86B6 /* Madona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Madona.jpg; sourceTree = "<group>"; };
+		9777FF1A2284C2FD003C86B6 /* Crystal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Crystal.jpg; sourceTree = "<group>"; };
+		9777FF1B2284C2FD003C86B6 /* Katy Perry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Katy Perry.jpg"; sourceTree = "<group>"; };
+		9777FF1C2284C2FD003C86B6 /* justin bieber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "justin bieber.jpg"; sourceTree = "<group>"; };
+		9777FF1D2284C2FD003C86B6 /* John Wayne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "John Wayne.jpg"; sourceTree = "<group>"; };
+		9777FF1E2284C2FD003C86B6 /* Mandy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mandy.jpg; sourceTree = "<group>"; };
+		9777FF1F2284C2FD003C86B6 /* Singer15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Singer15.jpg; sourceTree = "<group>"; };
+		9777FF202284C2FD003C86B6 /* miley cyrus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "miley cyrus.jpg"; sourceTree = "<group>"; };
+		9777FF212284C2FD003C86B6 /* Alanis .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alanis .jpg"; sourceTree = "<group>"; };
+		9777FF222284C2FE003C86B6 /* Paul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paul.jpg; sourceTree = "<group>"; };
+		9777FF232284C2FE003C86B6 /* singer19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = singer19.jpg; sourceTree = "<group>"; };
+		9777FF242284C2FE003C86B6 /* TaylorSwift.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TaylorSwift.jpeg; sourceTree = "<group>"; };
+		9777FF252284C2FE003C86B6 /* usher raymond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "usher raymond.jpg"; sourceTree = "<group>"; };
+		9777FF262284C2FE003C86B6 /* Michel Jackson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Michel Jackson.jpg"; sourceTree = "<group>"; };
+		9777FF272284C2FE003C86B6 /* rihanna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rihanna.jpg; sourceTree = "<group>"; };
+		9777FF282284C2FE003C86B6 /* Selena Gomez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Selena Gomez.jpg"; sourceTree = "<group>"; };
+		9777FF292284C2FE003C86B6 /* Singer18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Singer18.jpg; sourceTree = "<group>"; };
+		9777FF2A2284C2FE003C86B6 /* obit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obit.jpg; sourceTree = "<group>"; };
+		9777FF2B2284C2FE003C86B6 /* Carrie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carrie.jpg; sourceTree = "<group>"; };
+		9777FF2C2284C2FE003C86B6 /* Singer14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Singer14.jpg; sourceTree = "<group>"; };
+		9777FF2D2284C2FE003C86B6 /* singer17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = singer17.jpg; sourceTree = "<group>"; };
+		9777FF2E2284C2FE003C86B6 /* harry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harry.jpg; sourceTree = "<group>"; };
+		9777FF2F2284C2FE003C86B6 /* rajay.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rajay.jpeg; sourceTree = "<group>"; };
+		9777FF302284C2FF003C86B6 /* Adele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Adele.jpg; sourceTree = "<group>"; };
+		9777FF312284C2FF003C86B6 /* singer24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = singer24.jpg; sourceTree = "<group>"; };
+		9777FF322284C2FF003C86B6 /* Marry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marry.jpg; sourceTree = "<group>"; };
+		9777FF4E2284C4D1003C86B6 /* singer16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = singer16.jpg; sourceTree = "<group>"; };
+		9777FF4F2284C4D2003C86B6 /* ladyvgaga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladyvgaga.jpg; sourceTree = "<group>"; };
+		9777FF522284C59C003C86B6 /* singer23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = singer23.jpg; sourceTree = "<group>"; };
 		979F520122821C98005CFC16 /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979F520422821C98005CFC16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		979F520622821C98005CFC16 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +101,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9777FF152284BD3A003C86B6 /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				9777FF4F2284C4D2003C86B6 /* ladyvgaga.jpg */,
+				9777FF4E2284C4D1003C86B6 /* singer16.jpg */,
+				9777FF302284C2FF003C86B6 /* Adele.jpg */,
+				9777FF212284C2FD003C86B6 /* Alanis .jpg */,
+				9777FF2B2284C2FE003C86B6 /* Carrie.jpg */,
+				9777FF1A2284C2FD003C86B6 /* Crystal.jpg */,
+				9777FF2E2284C2FE003C86B6 /* harry.jpg */,
+				9777FF1D2284C2FD003C86B6 /* John Wayne.jpg */,
+				9777FF1C2284C2FD003C86B6 /* justin bieber.jpg */,
+				9777FF1B2284C2FD003C86B6 /* Katy Perry.jpg */,
+				9777FF192284C2FD003C86B6 /* Madona.jpg */,
+				9777FF522284C59C003C86B6 /* singer23.jpg */,
+				9777FF1E2284C2FD003C86B6 /* Mandy.jpg */,
+				9777FF322284C2FF003C86B6 /* Marry.jpg */,
+				9777FF262284C2FE003C86B6 /* Michel Jackson.jpg */,
+				9777FF202284C2FD003C86B6 /* miley cyrus.jpg */,
+				9777FF2A2284C2FE003C86B6 /* obit.jpg */,
+				9777FF222284C2FE003C86B6 /* Paul.jpg */,
+				9777FF2F2284C2FE003C86B6 /* rajay.jpeg */,
+				9777FF272284C2FE003C86B6 /* rihanna.jpg */,
+				9777FF282284C2FE003C86B6 /* Selena Gomez.jpg */,
+				9777FF2C2284C2FE003C86B6 /* Singer14.jpg */,
+				9777FF1F2284C2FD003C86B6 /* Singer15.jpg */,
+				9777FF2D2284C2FE003C86B6 /* singer17.jpg */,
+				9777FF292284C2FE003C86B6 /* Singer18.jpg */,
+				9777FF232284C2FE003C86B6 /* singer19.jpg */,
+				9777FF312284C2FF003C86B6 /* singer24.jpg */,
+				9777FF242284C2FE003C86B6 /* TaylorSwift.jpeg */,
+				9777FF252284C2FE003C86B6 /* usher raymond.jpg */,
+				9777FF162284BD50003C86B6 /* ArianaGrande.jpg */,
+			);
+			path = ImageAssets;
+			sourceTree = "<group>";
+		};
 		979F51F822821C97005CFC16 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +157,7 @@
 		979F520322821C98005CFC16 /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
+				9777FF152284BD3A003C86B6 /* ImageAssets */,
 				979F520422821C98005CFC16 /* AppDelegate.swift */,
 				979F520622821C98005CFC16 /* MainViewController.swift */,
 				979F520822821C98005CFC16 /* Main.storyboard */,
@@ -63,6 +165,8 @@
 				979F520D22821C9A005CFC16 /* LaunchScreen.storyboard */,
 				979F521022821C9A005CFC16 /* Info.plist */,
 				9777FF0F22847B43003C86B6 /* CreateAccountViewController.swift */,
+				9777FF112284B39F003C86B6 /* SelectionViewController.swift */,
+				9777FF132284B5EC003C86B6 /* SelectionViewCell.swift */,
 			);
 			path = Spotify;
 			sourceTree = "<group>";
@@ -125,9 +229,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9777FF472284C2FF003C86B6 /* Singer14.jpg in Resources */,
+				9777FF482284C2FF003C86B6 /* singer17.jpg in Resources */,
+				9777FF412284C2FF003C86B6 /* Michel Jackson.jpg in Resources */,
+				9777FF362284C2FF003C86B6 /* Katy Perry.jpg in Resources */,
+				9777FF3F2284C2FF003C86B6 /* TaylorSwift.jpeg in Resources */,
+				9777FF3A2284C2FF003C86B6 /* Singer15.jpg in Resources */,
+				9777FF402284C2FF003C86B6 /* usher raymond.jpg in Resources */,
+				9777FF3D2284C2FF003C86B6 /* Paul.jpg in Resources */,
+				9777FF352284C2FF003C86B6 /* Crystal.jpg in Resources */,
+				9777FF502284C4D2003C86B6 /* singer16.jpg in Resources */,
+				9777FF442284C2FF003C86B6 /* Singer18.jpg in Resources */,
+				9777FF4C2284C2FF003C86B6 /* singer24.jpg in Resources */,
+				9777FF392284C2FF003C86B6 /* Mandy.jpg in Resources */,
+				9777FF452284C2FF003C86B6 /* obit.jpg in Resources */,
+				9777FF342284C2FF003C86B6 /* Madona.jpg in Resources */,
+				9777FF382284C2FF003C86B6 /* John Wayne.jpg in Resources */,
+				9777FF172284BD50003C86B6 /* ArianaGrande.jpg in Resources */,
+				9777FF3C2284C2FF003C86B6 /* Alanis .jpg in Resources */,
+				9777FF4A2284C2FF003C86B6 /* rajay.jpeg in Resources */,
 				979F520F22821C9A005CFC16 /* LaunchScreen.storyboard in Resources */,
+				9777FF372284C2FF003C86B6 /* justin bieber.jpg in Resources */,
+				9777FF422284C2FF003C86B6 /* rihanna.jpg in Resources */,
+				9777FF432284C2FF003C86B6 /* Selena Gomez.jpg in Resources */,
+				9777FF532284C59C003C86B6 /* singer23.jpg in Resources */,
+				9777FF3B2284C2FF003C86B6 /* miley cyrus.jpg in Resources */,
+				9777FF3E2284C2FF003C86B6 /* singer19.jpg in Resources */,
 				979F520C22821C9A005CFC16 /* Assets.xcassets in Resources */,
+				9777FF512284C4D2003C86B6 /* ladyvgaga.jpg in Resources */,
+				9777FF4B2284C2FF003C86B6 /* Adele.jpg in Resources */,
+				9777FF4D2284C2FF003C86B6 /* Marry.jpg in Resources */,
 				979F520A22821C98005CFC16 /* Main.storyboard in Resources */,
+				9777FF462284C2FF003C86B6 /* Carrie.jpg in Resources */,
+				9777FF492284C2FF003C86B6 /* harry.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9777FF142284B5EC003C86B6 /* SelectionViewCell.swift in Sources */,
 				9777FF1022847B43003C86B6 /* CreateAccountViewController.swift in Sources */,
+				9777FF122284B39F003C86B6 /* SelectionViewController.swift in Sources */,
 				979F520722821C98005CFC16 /* MainViewController.swift in Sources */,
 				979F520522821C98005CFC16 /* AppDelegate.swift in Sources */,
 			);

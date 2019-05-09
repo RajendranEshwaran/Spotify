@@ -159,20 +159,98 @@
             </objects>
             <point key="canvasLocation" x="1528.8" y="-564.46776611694156"/>
         </scene>
-        <!--View Controller-->
+        <!--Selection View Controller-->
         <scene sceneID="7V0-w7-UUa">
             <objects>
-                <viewController id="cgF-ZV-204" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="AuR-S4-nPV">
+                <viewController storyboardIdentifier="SelectionViewController" id="cgF-ZV-204" customClass="SelectionViewController" customModule="Spotify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" alpha="0.80000000000000004" contentMode="scaleToFill" id="AuR-S4-nPV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="kIq-kw-KWQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="w0o-jl-zEP"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.36535460850000001" green="0.44084044760000002" blue="0.86796081849999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6Ld-3O-dGc">
+                                <rect key="frame" x="0.0" y="56" width="375" height="611"/>
+                                <color key="backgroundColor" red="0.36535460850000001" green="0.44084044760000002" blue="0.86796081849999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HRF-HE-AqB">
+                                    <size key="itemSize" width="90" height="90"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="SelectionCell" reuseIdentifier="SelectionCell" id="MCh-LR-s8h" customClass="SelectionViewCell" customModule="Spotify" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ArianaGrande.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6OG-0X-TrF">
+                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="45"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgp-vw-1nX">
+                                                    <rect key="frame" x="0.0" y="63" width="80" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.91076922416687012" green="0.050715409219264984" blue="0.50430780649185181" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="0.24967559010000001" green="0.32063365300000002" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="customSize" width="80" height="80"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="45"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="artistNameLbl" destination="Fgp-vw-1nX" id="7zy-Bc-vRc"/>
+                                            <outlet property="artistThumbImg" destination="Fgp-vw-1nX" id="h9h-ZK-B2a"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="cgF-ZV-204" id="Lvo-it-xvW"/>
+                                    <outlet property="delegate" destination="cgF-ZV-204" id="NVt-Lb-ouM"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36535460850000001" green="0.44084044760000002" blue="0.86796081849999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Ld-3O-dGc" firstAttribute="bottom" secondItem="C2a-VW-WdL" secondAttribute="bottom" id="Io7-c2-yPD"/>
+                            <constraint firstItem="6Ld-3O-dGc" firstAttribute="top" secondItem="kIq-kw-KWQ" secondAttribute="bottom" id="PFE-wI-F8i"/>
+                            <constraint firstItem="kIq-kw-KWQ" firstAttribute="trailing" secondItem="C2a-VW-WdL" secondAttribute="trailing" id="Tmv-kh-eOn"/>
+                            <constraint firstItem="kIq-kw-KWQ" firstAttribute="leading" secondItem="C2a-VW-WdL" secondAttribute="leading" id="iEg-eG-Ft3"/>
+                            <constraint firstItem="6Ld-3O-dGc" firstAttribute="leading" secondItem="C2a-VW-WdL" secondAttribute="leading" id="kbZ-TE-qVY"/>
+                            <constraint firstItem="6Ld-3O-dGc" firstAttribute="trailing" secondItem="C2a-VW-WdL" secondAttribute="trailing" id="suj-T2-gFi"/>
+                            <constraint firstItem="kIq-kw-KWQ" firstAttribute="top" secondItem="AuR-S4-nPV" secondAttribute="top" id="yNa-g0-bpb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="C2a-VW-WdL"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WaY-LJ-ReT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2278" y="-564"/>
+            <point key="canvasLocation" x="2277.5999999999999" y="-564.46776611694156"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="nSa-Zn-1Om">
@@ -276,4 +354,7 @@
             <point key="canvasLocation" x="815" y="-564"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ArianaGrande.jpg" width="512" height="512"/>
+    </resources>
 </document>

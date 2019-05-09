@@ -52,7 +52,10 @@ class CreateAccountViewController: UIViewController ,UITextFieldDelegate{
         
         if !(emailTxt.text?.isEmpty)!{
             currentIndex = currentIndex! + 1
-            animateViewOut(index: currentIndex!)
+            //animateViewOut(index: currentIndex!)
+                        
+            let presentedVC = self.storyboard!.instantiateViewController(withIdentifier: "SelectionViewController")
+            present(presentedVC, animated: false, completion: nil)
         }
         
     }
