@@ -45,12 +45,6 @@ class SelectionViewController: UIViewController , UICollectionViewDelegate,UICol
         cell.artistNameLbl.text = artistCollectionArray[indexPath.row]
         cell.artistImgThumb.image = UIImage (named: artistImgGallery[indexPath.row])
         
-//        if selectedCell.contains(indexPath) {
-//            cell.contentView.backgroundColor = .red
-//        }
-//        else {
-//            cell.contentView.backgroundColor = .white
-//        }
         return cell
     }
 
