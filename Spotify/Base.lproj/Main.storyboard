@@ -192,7 +192,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ArianaGrande.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6OG-0X-TrF">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6OG-0X-TrF">
                                                     <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <userDefinedRuntimeAttributes>
@@ -204,12 +204,16 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgp-vw-1nX">
-                                                    <rect key="frame" x="0.0" y="63" width="80" height="18"/>
+                                                    <rect key="frame" x="0.0" y="68" width="80" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.91076922416687012" green="0.050715409219264984" blue="0.50430780649185181" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Choose.png" translatesAutoresizingMaskIntoConstraints="NO" id="hp6-fJ-uao">
+                                                    <rect key="frame" x="54" y="10" width="16" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" red="0.24967559010000001" green="0.32063365300000002" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -224,8 +228,9 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <outlet property="artistNameLbl" destination="Fgp-vw-1nX" id="7zy-Bc-vRc"/>
-                                            <outlet property="artistThumbImg" destination="Fgp-vw-1nX" id="h9h-ZK-B2a"/>
+                                            <outlet property="artistImgThumb" destination="6OG-0X-TrF" id="WKh-bo-uWV"/>
+                                            <outlet property="artistNameLbl" destination="Fgp-vw-1nX" id="iQe-oP-84c"/>
+                                            <outlet property="artistSelectImg" destination="hp6-fJ-uao" id="4g1-zS-ef3"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -234,12 +239,30 @@
                                     <outlet property="delegate" destination="cgF-ZV-204" id="NVt-Lb-ouM"/>
                                 </connections>
                             </collectionView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sA2-Ht-Esa">
+                                <rect key="frame" x="119" y="617" width="137" height="50"/>
+                                <color key="backgroundColor" red="0.54029594000000003" green="0.98386007549999999" blue="0.51375278889999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Z1Z-zW-1xJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Go">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goFunc:" destination="cgF-ZV-204" eventType="touchUpInside" id="tFE-Fg-1zf"/>
+                                    <action selector="nextAccCreate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UKs-Wm-0ss"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.36535460850000001" green="0.44084044760000002" blue="0.86796081849999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="sA2-Ht-Esa" firstAttribute="bottom" secondItem="C2a-VW-WdL" secondAttribute="bottom" id="DOK-Ce-7nE"/>
                             <constraint firstItem="6Ld-3O-dGc" firstAttribute="bottom" secondItem="C2a-VW-WdL" secondAttribute="bottom" id="Io7-c2-yPD"/>
                             <constraint firstItem="6Ld-3O-dGc" firstAttribute="top" secondItem="kIq-kw-KWQ" secondAttribute="bottom" id="PFE-wI-F8i"/>
                             <constraint firstItem="kIq-kw-KWQ" firstAttribute="trailing" secondItem="C2a-VW-WdL" secondAttribute="trailing" id="Tmv-kh-eOn"/>
+                            <constraint firstItem="C2a-VW-WdL" firstAttribute="trailing" secondItem="sA2-Ht-Esa" secondAttribute="trailing" constant="119" id="Xgs-zt-naW"/>
+                            <constraint firstItem="sA2-Ht-Esa" firstAttribute="leading" secondItem="C2a-VW-WdL" secondAttribute="leading" constant="119" id="ZJG-C4-YiR"/>
                             <constraint firstItem="kIq-kw-KWQ" firstAttribute="leading" secondItem="C2a-VW-WdL" secondAttribute="leading" id="iEg-eG-Ft3"/>
                             <constraint firstItem="6Ld-3O-dGc" firstAttribute="leading" secondItem="C2a-VW-WdL" secondAttribute="leading" id="kbZ-TE-qVY"/>
                             <constraint firstItem="6Ld-3O-dGc" firstAttribute="trailing" secondItem="C2a-VW-WdL" secondAttribute="trailing" id="suj-T2-gFi"/>
@@ -247,6 +270,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="C2a-VW-WdL"/>
                     </view>
+                    <connections>
+                        <outlet property="artistGallery" destination="6Ld-3O-dGc" id="TYN-ST-sUz"/>
+                        <outlet property="goBtn" destination="sA2-Ht-Esa" id="2Kj-Qx-mBV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WaY-LJ-ReT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -355,6 +382,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ArianaGrande.jpg" width="512" height="512"/>
+        <image name="Choose.png" width="512" height="512"/>
     </resources>
 </document>

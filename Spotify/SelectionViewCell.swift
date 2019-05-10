@@ -10,6 +10,7 @@ import UIKit
 
 class SelectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var artistThumbImg: UILabel!
+    @IBOutlet weak var artistImgThumb: UIImageView!
     @IBOutlet weak var artistNameLbl: UILabel!
+    @IBOutlet weak var artistSelectImg: UIImageView!
 }
